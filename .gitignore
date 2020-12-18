@@ -43,3 +43,4 @@ vignettes/*.pdf
 *.png
 *.csv
 deploy_app.r
+*.dcf
