@@ -46,3 +46,4 @@ deploy_app.r
 *.dcf
 restart.txt
 www/archive/
+bootstrap-4.3.1-dist.*
