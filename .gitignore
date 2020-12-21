@@ -44,3 +44,5 @@ vignettes/*.pdf
 *.csv
 deploy_app.r
 *.dcf
+restart.txt
+www/archive/

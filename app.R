@@ -33,15 +33,15 @@ ui = fluidPage(
   
   wellPanel(
     h4("The table below includes the full methods history for select climate stations at H.J. Andrews.", align = "center"), 
-    h4("To narrow results, filter by parameter, benchmark station, and/or date range.", align = "center"),
-    h4("The Search field can be used to limit results to those containing the search term(s).", align = "center"),
+    h5("To narrow results, filter by parameter, benchmark station, and/or date range.", align = "center"),
+    h5("The Search field can be used to limit results to those containing the search term(s).", align = "center"),
     style = "background: #265363;color: white;"
   ),
   
   # Create a new Row in the UI for selectInputs
   #fluidrow 1 = selections
   fluidRow(
-    column(12, h5("Be sure to deselect ", strong("All"), "in any dropdowns where filters are selected.")
+    column(12, h5("Deselect ", strong("All"), "in the dropdown to filter results."), style = "color: #d55e00;"
            
     ),
     column(4,
